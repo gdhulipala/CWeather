@@ -1,0 +1,65 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3 Copyright (C) 2016 The Android Open Source Project
+4
+5     Licensed under the Apache License, Version 2.0 (the "License");
+6     you may not use this file except in compliance with the License.
+7     You may obtain a copy of the License at
+8
+9          http://www.apache.org/licenses/LICENSE-2.0
+10
+11     Unless required by applicable law or agreed to in writing, software
+12     distributed under the License is distributed on an "AS IS" BASIS,
+13     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14     See the License for the specific language governing permissions and
+15     limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="com.example.android.didyoufeelit"
+19    android:versionCode="1"
+20    android:versionName="1.0" >
+21
+22    <uses-sdk
+23        android:minSdkVersion="15"
+23-->/Users/ganga/Desktop/Cweather/app/src/main/AndroidManifest.xml
+24        android:targetSdkVersion="23" />
+24-->/Users/ganga/Desktop/Cweather/app/src/main/AndroidManifest.xml
+25
+26    <uses-permission android:name="android.permission.INTERNET" />
+26-->/Users/ganga/Desktop/Cweather/app/src/main/AndroidManifest.xml:19:5-67
+26-->/Users/ganga/Desktop/Cweather/app/src/main/AndroidManifest.xml:19:22-64
+27
+28    <application
+28-->/Users/ganga/Desktop/Cweather/app/src/main/AndroidManifest.xml:21:5-35:19
+29        android:allowBackup="true"
+29-->/Users/ganga/Desktop/Cweather/app/src/main/AndroidManifest.xml:22:9-35
+30        android:debuggable="true"
+31        android:icon="@mipmap/ic_launcher"
+31-->/Users/ganga/Desktop/Cweather/app/src/main/AndroidManifest.xml:23:9-43
+32        android:label="CWeather"
+32-->/Users/ganga/Desktop/Cweather/app/src/main/AndroidManifest.xml:24:9-33
+33        android:supportsRtl="true"
+33-->/Users/ganga/Desktop/Cweather/app/src/main/AndroidManifest.xml:25:9-35
+34        android:testOnly="true"
+35        android:theme="@style/AppTheme" >
+35-->/Users/ganga/Desktop/Cweather/app/src/main/AndroidManifest.xml:26:9-40
+36        <activity android:name="com.example.android.didyoufeelit.MainActivity" >
+36-->/Users/ganga/Desktop/Cweather/app/src/main/AndroidManifest.xml:27:9-33:20
+36-->/Users/ganga/Desktop/Cweather/app/src/main/AndroidManifest.xml:27:19-47
+37            <intent-filter>
+37-->/Users/ganga/Desktop/Cweather/app/src/main/AndroidManifest.xml:28:13-32:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->/Users/ganga/Desktop/Cweather/app/src/main/AndroidManifest.xml:29:17-69
+38-->/Users/ganga/Desktop/Cweather/app/src/main/AndroidManifest.xml:29:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->/Users/ganga/Desktop/Cweather/app/src/main/AndroidManifest.xml:31:17-77
+40-->/Users/ganga/Desktop/Cweather/app/src/main/AndroidManifest.xml:31:27-74
+41            </intent-filter>
+42        </activity>
+43        <activity android:name="com.example.android.didyoufeelit.SettingsActivity" />
+43-->/Users/ganga/Desktop/Cweather/app/src/main/AndroidManifest.xml:34:9-63
+43-->/Users/ganga/Desktop/Cweather/app/src/main/AndroidManifest.xml:34:19-51
+44    </application>
+45
+46</manifest>
